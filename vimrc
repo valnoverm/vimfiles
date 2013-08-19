@@ -50,3 +50,8 @@ let g:airline_section_c = '%t'
 
 """ Powerline
 " let g:Powerline_symbols = 'fancy'
+
+""" NERD Tree
+nnoremap <F2> :NERDTreeToggle<CR>
+let g:NERDTreeMouseMode = 2
+let g:NERDTreeWinSize = 25

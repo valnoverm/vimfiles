@@ -46,6 +46,7 @@ let g:airline_right_sep = '◀'
 let g:airline_linecolumn_prefix = '¶ '
 let g:airline_fugitive_prefix = '⎇ '
 let g:airline_paste_symbol = 'ρ'
-
 let g:airline_section_c = '%t'
 
+""" Powerline
+" let g:Powerline_symbols = 'fancy'

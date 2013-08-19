@@ -2,6 +2,7 @@
 call pathogen#infect()
 
 if has('gui')
+    colorscheme oceandeep
     if has('mac')
         set guifont=Monaco:h12
     endif

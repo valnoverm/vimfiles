@@ -33,6 +33,14 @@ set autoindent
 set expandtab
 set smarttab
 
+""" Menu
+set wildmenu
+set wcm=
+menu Run.CoffeeScript.RunStdout :!coffee --bare --print % <CR>
+menu Run.CoffeeScript.Build     :!coffee --bare --compile % <CR>
+menu Run.CoffeeScript.Watch     :!coffee --bare --print --watch % <CR>
+map :emenu Run.
+
 """ Status bar
 set laststatus=2
 
